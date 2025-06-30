@@ -31,7 +31,7 @@ const Resources = () => {
           <h3>Job Search Guide</h3>
           <p>Master your job search strategy</p>
           <small>15 mins read</small>
-          <a href="#">Read more →</a>
+          
         </div>
       </div>
 
@@ -41,7 +41,7 @@ const Resources = () => {
           <h3>Resume Building</h3>
           <p>Create an impressive resume</p>
           <small>Reference Guide</small>
-          <a href="#">View docs →</a>
+       
         </div>
       </div>
 
@@ -51,7 +51,7 @@ const Resources = () => {
           <h3>Interview Tips</h3>
           <p>Tips for job interviews</p>
           <small>12 videos</small>
-          <a href="#">Watch now →</a>
+          
         </div>
       </div>
     </div>
