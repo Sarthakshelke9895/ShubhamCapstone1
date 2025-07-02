@@ -63,7 +63,7 @@ const Resources = () => {
         <div class="popular-info">
           <h4>Career Transition Guide</h4>
           <div class="popular-meta">
-            <span class="badge green">Updated</span>
+            <span class="tags">Updated</span>
             <span>5 days ago</span>
           </div>
         </div>
@@ -74,7 +74,7 @@ const Resources = () => {
         <div class="popular-info">
           <h4>Salary Negotiation</h4>
           <div class="popular-meta">
-            <span class="badge blue">Popular</span>
+            <span class="tags">Popular</span>
             <span>1.2k views</span>
           </div>
         </div>
@@ -85,7 +85,7 @@ const Resources = () => {
         <div class="popular-info">
           <h4>Remote Work Guide</h4>
           <div class="popular-meta">
-            <span class="badge yellow">Beginner</span>
+            <span class="tags">Beginner</span>
             <span>20 min read</span>
           </div>
         </div>
@@ -96,7 +96,7 @@ const Resources = () => {
         <div class="popular-info">
           <h4>Networking Tips</h4>
           <div class="popular-meta">
-            <span class="badge purple">24/7 Support</span>
+            <span class="tags">24/7 Support</span>
             <span>Build Network</span>
           </div>
         </div>

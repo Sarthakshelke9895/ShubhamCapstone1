@@ -37,7 +37,7 @@ const Footer = () => {
     <hr />
 
     <div class="footer-bottom">
-      <p>© 2025 JobPortal. All rights reserved.</p>
+      <p>© 2025 HireOnyx. All rights reserved.</p>
       <div class="social-icons">
         <span>🐦</span>
         <span>🔗</span>

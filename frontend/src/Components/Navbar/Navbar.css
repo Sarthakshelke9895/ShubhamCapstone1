@@ -95,3 +95,54 @@
   .signup:hover {
     background-color: #333;
   }
+
+
+
+
+
+  .menu-toggle {
+    display: none;
+    cursor: pointer;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .logo_and_links {
+      width: auto;
+    }
+  
+    .nav-links {
+      position: fixed;
+      top: 74px;
+      right: -100%;
+      background-color: white;
+      height: 100vh;
+      width: 180px;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 20px 20px;
+      gap: 20px;
+      transition: right 0.3s ease-in-out;
+      box-shadow: -2px 0 8px rgba(0,0,0,0.1);
+      z-index: 999;
+    }
+  
+    .nav-links.open {
+      right: 0;
+    }
+  
+    .auth-buttons {
+      gap: 10px;
+    }
+  
+    .menu-toggle {
+      display: block;
+      z-index: 1001;
+    }
+  
+    .logo_and_links ul {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  

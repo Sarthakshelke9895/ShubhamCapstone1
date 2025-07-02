@@ -199,3 +199,57 @@
     border-radius: 6px;
   }
   
+
+  @media (max-width: 768px) {
+    .heading {
+      height: auto;
+      padding: 20px;
+      text-align: center;
+    }
+  
+    #heading1, #heading2 {
+      font-size: 30px;
+    }
+  
+    #heading3 {
+      font-size: 16px;
+      text-align: center;
+    }
+  
+    .search-box {
+      flex-direction: column;
+      gap: 12px;
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .input-group {
+      width: 100%;
+    }
+  
+    .search-btn {
+      width: 100%;
+    }
+  
+    .category-boxes,
+    .jobs,
+    .company-list,
+    .tools {
+      flex-direction: column;
+      gap: 16px;
+    }
+  
+    .category, .company, .tool, .job-card {
+      min-width: auto;
+      width: 100%;
+    }
+  
+    .job-card {
+      text-align: center;
+    }
+  
+    .progress-bar {
+      width: 100%;
+    }
+  }
+  

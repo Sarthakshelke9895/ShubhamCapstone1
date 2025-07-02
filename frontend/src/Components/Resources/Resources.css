@@ -139,14 +139,84 @@
     color: #666;
   }
   
-  .badge {
-    padding: 4px 10px;
-    border-radius: 10px;
-    font-size: 15px;
+  .tags{
+    background-color: #463dee;
+    width: fit-content;
+    padding: 5px 10px ;
     color: white;
+    border-radius: 15px;
   }
   
   .green { background-color: #28a745; }
   .blue { background-color: #007bff; }
   .yellow { background-color: #ffc107; color: black; }
   .purple { background-color: #6f42c1; }
+
+
+  @media (max-width: 768px) {
+    #resources-container {
+      padding: 10px;
+      margin-top: 80px;
+    }
+  
+    #search-bar {
+      width: 100%;
+      font-size: 15px;
+      padding: 10px 12px;
+    }
+  
+    #filter-section {
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+  
+    .filter-tag {
+      font-size: 14px;
+      padding: 6px 14px;
+    }
+  
+    #top-resources {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+
+    .resource-box {
+      flex-direction: column;
+      padding: 16px;
+    }
+  
+    .resource-icon {
+      font-size: 26px;
+      margin-bottom: 10px;
+      margin-right: 0;
+    }
+  
+    .resource-content h3 {
+      font-size: 18px;
+    }
+  
+    .resource-content p,
+    .resource-content small,
+    .resource-content a {
+      font-size: 14px;
+    }
+  
+    #popular-heading {
+      font-size: 20px;
+    }
+  
+    #popular-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .popular-info h4 {
+      font-size: 18px;
+    }
+  
+    .popular-meta {
+      flex-direction: column;
+      gap: 6px;
+    }
+  }
+  
